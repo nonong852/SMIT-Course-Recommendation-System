@@ -52,7 +52,7 @@ pip install Django
 python manage.py makemigrations
 python manage.py migrate
 ```
--Now run the server:
+- Now run the server:
 ```bash
 python manage.py runserver
 ```
