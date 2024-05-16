@@ -1,0 +1,1 @@
+path('coursedetails/<int:course_id>/', views.coursedetails, name='coursedetails'),
