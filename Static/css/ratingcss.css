@@ -1,0 +1,252 @@
+
+
+.padding {
+    padding: 10rem !important;
+    margin-left: 200px
+}
+
+
+.br-theme-bars-square .br-widget {
+  height: 15px;
+  white-space: nowrap;
+}
+.br-theme-bars-square .br-widget a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: left;
+  border: 2px solid #bbcefb;
+  background-color: white;
+  margin: 2px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2;
+  text-align: center;
+  color: #bbcefb;
+  font-weight: 600;
+}
+.br-theme-bars-square .br-widget a.br-active,
+.br-theme-bars-square .br-widget a.br-selected {
+  border: 2px solid #4278F5;
+  color: #4278F5;
+}
+.br-theme-bars-square .br-widget .br-current-rating {
+  clear: both;
+  width: 330px;
+  text-align: center;
+  font-weight: 600;
+  display: block;
+  padding: .5em 0;
+  color: #646464;
+}
+.br-theme-bars-square .br-readonly a {
+  cursor: default;
+}
+.br-theme-bars-square .br-readonly a.br-active,
+.br-theme-bars-square .br-readonly a.br-selected {
+  border: 2px solid #729bf8;
+  color: #729bf8;
+}
+@media print {
+  .br-theme-bars-square .br-widget a {
+    border: 2px solid #b3b3b3;
+    color: #b3b3b3;
+  }
+  .br-theme-bars-square .br-widget a.br-active,
+  .br-theme-bars-square .br-widget a.br-selected {
+    border: 2px solid black;
+    color: black;
+  }
+}
+
+
+
+
+
+
+
+
+
+.box-example-1to10 .br-wrapper {
+    width: 210px;
+    position: absolute;
+    margin: 0px 0 0 -105px;
+    left: 50%
+}
+
+.box-example-movie .br-wrapper {
+    width: 250px;
+    position: absolute;
+    margin: 0px 0 0 -125px;
+    left: 50%
+}
+
+.box-example-square .br-wrapper {
+    width: 190px;
+    position: absolute;
+    margin: 0px 0 0 -95px;
+    left: 50%
+}
+
+.box-example-pill .br-wrapper {
+    width: 232px;
+    position: absolute;
+    margin: 0px 0 0 -116px;
+    left: 50%
+}
+
+.box-example-reversed .br-wrapper {
+    padding-top: 1.3em;
+    width: 356px;
+    position: absolute;
+    margin: 0px 0 0 -178px;
+    left: 50%
+}
+
+.box-example-horizontal .br-wrapper {
+    width: 120px;
+    position: absolute;
+    margin: 0px 0 0 -60px;
+    left: 50%
+}
+
+.star-ratings h1 {
+    font-size: 1.5em;
+    line-height: 2;
+    margin-top: 3em;
+    color: #757575
+}
+
+.star-ratings p {
+    margin-bottom: 3em;
+    line-height: 1.2
+}
+
+.star-ratings h1,
+.star-ratings p {
+    text-align: center
+}
+
+.star-ratings .stars {
+    width: 120px;
+    text-align: center;
+    margin: auto;
+    padding: 0 95px
+}
+
+.star-ratings .stars .title {
+    font-size: 14px;
+    color: #cccccc;
+    line-height: 3
+}
+
+.star-ratings .stars select {
+    width: 120px;
+    font-size: 16px
+}
+
+.star-ratings .stars-example-fontawesome,
+.star-ratings .stars-example-css,
+.star-ratings .stars-example-bootstrap {
+    float: left
+}
+
+.star-ratings .stars-example-fontawesome-o {
+    width: 200px
+}
+
+.star-ratings .stars-example-fontawesome-o select {
+    width: 200px
+}
+
+.start-ratings-main {
+    margin-bottom: 3em
+}
+
+.box {
+    width: 100%;
+    float: left;
+    margin: 1em 0
+}
+
+.box .box-header {
+    text-align: center;
+    font-weight: 400;
+    padding: .5em 0
+}
+
+.box .box-body {
+    padding-top: 2em;
+    height: 85px;
+    position: relative
+}
+
+.box select {
+    width: 120px;
+    margin: 10px auto 0 auto;
+    display: block;
+    font-size: 16px
+}
+
+.box-large .box-body {
+    padding-top: 2em;
+    height: 120px
+}
+
+.box-orange .box-header {
+    background-color: #edb867;
+    color: white
+}
+
+.box-orange .box-body {
+    background-color: white;
+    border: 2px solid #f5d8ab;
+    border-top: 0
+}
+
+.box-green .box-header {
+    background-color: #50e3c2;
+    color: white
+}
+
+.box-green .box-body {
+    background-color: white;
+    border: 2px solid #92eed9;
+    border-top: 0
+}
+
+.box-blue .box-header {
+    background-color: #4278f5;
+    color: white
+}
+
+.box-blue .box-body {
+    background-color: white;
+    border: 2px solid #8bacf9;
+    border-top: 0
+}
+
+@media print {
+    .star-ratings h1 {
+        color: black
+    }
+
+    .star-ratings .stars .title {
+        color: black
+    }
+
+    .box-orange .box-header,
+    .box-green .box-header,
+    .box-blue .box-header {
+        background-color: transparent;
+        color: black
+    }
+
+    .box-orange .box-body,
+    .box-green .box-body,
+    .box-blue .box-body {
+        background-color: transparent;
+        border: none
+    }
+}
