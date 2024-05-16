@@ -5,8 +5,11 @@ A Course Recommendation System using Sikkim Manipal Institute of Technology Cour
 ## Tech Used
 
 **language:** Python(3.12.3)
+
 **font-End:** HTML,Javascript(JQuery)
-**Database:**PostgreSQL
+
+**Database:** PostgreSQL
+
 **Framework:** Django(5.0.4)
 
 ## Installation/Working
