@@ -40,15 +40,23 @@ Clone this repository or Download the files into your local system.
 - Open your Command Prompt (CMD) in the same directory 
 - Type the following command (for web app) :
 
-```bash
-python manage.py runserver
-```
 - Make sure you have Django Framework installed on your local device, if not installed, type the following to install (windows) : 
 
 ```bash
 pip install Django 
 ```
-
+- Also Make You have install PostgreSQL and pgAdmin 4 for Database Management:
+  
+- Now do migrations
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+-Now run the server:
+```bash
+python manage.py runserver
+```
+- 
 ## 🚀 Thanks
 
 Thanks for looking into the project and being here. Feel free to share your reviews/suggestions/remarks! :)
