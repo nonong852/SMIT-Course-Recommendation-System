@@ -48,7 +48,7 @@ Clone this repository or Download the files into your local system.
 ```bash
 pip install Django 
 ```
-- Also Make You have install PostgreSQL and pgAdmin 4 for Database Management:
+- Also make sure you have install PostgreSQL and pgAdmin 4 for Database Management:
   
 - Now do migrations
 ```bash
