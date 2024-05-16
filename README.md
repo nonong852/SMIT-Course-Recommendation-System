@@ -10,7 +10,7 @@ A Course Recommendation System using Sikkim Manipal Institute of Technology Cour
 **Framework:** Django(5.0.4)
 
 ## Installation/Working
-###Requirements
+### Requirements
 ```bash
 asgiref==3.8.1
 blinker==1.7.0
